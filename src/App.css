@@ -1,0 +1,68 @@
+.container{
+    max-width: 100%;
+    margin: 25px;
+    background-color: pink;
+    height: 90vh;
+    border-radius: 10px;
+    padding: 10px;  
+    
+}
+
+.Todo_title{
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-box{
+    width: 90%;
+    height: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: large;
+    padding: 5px;
+}
+
+.Add_btn{
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+    background-color: rgb(120, 65, 120);
+    color: white;
+    cursor: pointer;
+    height: 45px;
+}
+
+.todo-list{
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.delete_btn, .edit_btn{
+    padding: 5px;
+    font-size: medium;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.delete_btn{
+    margin-left: 60px
+}
+.todo-items{
+    font-size: 20px;
+} 
+
+.todo-list input:checked + .todo-items {
+  text-decoration: line-through;
+  opacity: 0.6;
+}

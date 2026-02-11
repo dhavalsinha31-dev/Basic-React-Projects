@@ -1,0 +1,30 @@
+nav{
+    height: 70px;
+    background-color: violet;
+    display: flex;
+    color: black;
+    border-radius: 10px;
+    align-items: center;
+    
+}
+
+ul{
+    display: flex;
+    gap : 30px;
+    list-style: none;
+    margin-left: auto;
+    padding-right: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+li:hover{
+    font-weight: bold;
+}
+
+
+
+h1{
+    font-size: 32px;
+    margin-left: 10px;
+}
